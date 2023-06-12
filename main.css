@@ -1,0 +1,39 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    justify-content: center;
+    padding: center;
+    text-align: center;
+}
+
+body { 
+        margin: auto;
+        padding: 150px;
+}
+
+
+form { 
+    padding: 24px 0;
+}
+
+input, button {
+    padding: 8px;
+}
+
+#task-input {
+    text-align: start;
+    font-weight: lighter;
+}
+
+ul {
+    list-style: outside;
+    width: 300px;
+    font-size: 16px;
+  }
+
+li.completed {
+    text-decoration: line-through;
+  }
